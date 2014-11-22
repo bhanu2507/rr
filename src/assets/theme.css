@@ -80,6 +80,18 @@ a:hover { text-decoration: none; }
 
 .call-us p span { color: #888; }
 
+/***** ccaption *****/
+
+.ccaption p {
+    display: none;
+    position:relative;
+}
+
+.ccaption h2 {
+    display: none;
+    position:relative;
+}
+
 
 /***** Coming Soon *****/
 
@@ -95,6 +107,7 @@ a:hover { text-decoration: none; }
     -moz-box-shadow: 0 1px 5px 0 rgba(0,0,0,.3) inset;
     -webkit-box-shadow: 0 1px 5px 0 rgba(0,0,0,.3) inset;
     box-shadow: 0 1px 5px 0 rgba(0,0,0,.3) inset;
+    min-height: 30%;
 }
 
 .coming-soon h2 {
@@ -114,6 +127,7 @@ a:hover { text-decoration: none; }
 .timer {
     margin-top: 40px;
     text-shadow: 0 1px 5px rgba(0,0,0,.1);
+    display: none;
 }
 
 .timer .days-wrapper,
@@ -249,8 +263,8 @@ a:hover { text-decoration: none; }
 }
 
 .social {
-    margin-top: 30px;
-    padding-bottom: 30px;
+    margin-top: 5px;
+    padding-bottom: 5px;
     text-align: center;
 }
 
